@@ -11,6 +11,7 @@ import os
 
 from django.core.asgi import get_asgi_application
 
+# Setting the os environment using setdefault
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'crm_project.settings')
 
 application = get_asgi_application()
