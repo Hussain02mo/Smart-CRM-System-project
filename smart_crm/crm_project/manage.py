@@ -3,7 +3,7 @@
 import os
 import sys
 
-
+# Initializes and runs Django administrative tasks.
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'crm_project.settings')
